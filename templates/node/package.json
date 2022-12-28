@@ -1,0 +1,31 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"type": "commonjs",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon .",
+		"lint": "eslint . --fix --ignore-path .gitignore",
+		"format": "prettier --write .",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "Quinten Muyllaert",
+	"license": "UNLICENSED",
+	"private": true,
+	"devDependencies": {
+		"eslint": "*",
+		"eslint-config-prettier": "*",
+		"eslint-plugin-jest": "*",
+		"eslint-plugin-node": "*",
+		"eslint-plugin-prettier": "*",
+		"jest": "*",
+		"prettier": "*",
+		"nodemon": "*"
+	},
+	"dependencies": {
+		"express": "*"
+	}
+}

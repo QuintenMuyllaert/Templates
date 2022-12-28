@@ -1,0 +1,31 @@
+{
+	"name": "node-esm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon .",
+		"lint": "eslint . --fix --ignore-path .gitignore",
+		"format": "prettier --write .",
+		"test": "node --experimental-vm-modules ./tests/jest.js"
+	},
+	"keywords": [],
+	"author": "Quinten Muyllaert",
+	"license": "UNLICENSED",
+	"private": true,
+	"devDependencies": {
+		"eslint": "*",
+		"eslint-config-prettier": "*",
+		"eslint-plugin-jest": "*",
+		"eslint-plugin-node": "*",
+		"eslint-plugin-prettier": "*",
+		"jest": "*",
+		"nodemon": "*",
+		"prettier": "*"
+	},
+	"dependencies": {
+		"express": "*"
+	}
+}
